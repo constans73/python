@@ -21,8 +21,17 @@ for i in frase:
 		vocal_u +=1
 	
 
-if vocal_a > 0 or vocal_e > 0 or vocal_i > 0 or vocal_o > 0 or vocal_u > 0:
-	print("vocal a:", vocal_a, "vocal e:", vocal_e, "vocal i:", vocal_i, "vocal o:", vocal_o,"vocal u:", vocal_u)
+
+if vocal_a > 0:
+	print ("vocal a:", vocal_a)
+if vocal_e > 0:
+	print ("vocal e:", vocal_e)
+if vocal_i > 0:
+	print ("vocal i:", vocal_i)
+if vocal_o > 0:
+	print ("vocal o:", vocal_o)
+if vocal_u > 0:
+	print ("vocal u:", vocal_u)
 
 else:
 	print("no hay vocales")
